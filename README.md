@@ -28,8 +28,9 @@ This project aims to build a simple, interactive tool to estimate the **risk of 
 
 ### 🔹 2. Handling Class Imbalance
 - The dataset was **imbalanced**, with far fewer recurrence cases.
-- Applied **SMOTE Tomek Links** (a hybrid oversampling + cleaning method) to balance the dataset.
+- Applied **Undersampling**(*Random Undersampler*), and **Oversampling**( *SMOTE* & *SMOTE Tomek Links* ) to balance the dataset.
 - Evaluated performance pre- and post-balancing with classification reports.
+- Finally decied to go with *SMOTE Tomek Links* as this had the best model performance
 
 ### 🔹 3. Model Building
 - Trained a **Logistic Regression model** on the processed data.
@@ -39,7 +40,7 @@ This project aims to build a simple, interactive tool to estimate the **risk of 
 ### 🔹 4. Visualization
 - Used **Matplotlib** and **Seaborn** to create clean visualizations:
   - Confusion matrix as a **heatmap**
-  - **ROC Curve** and **Precision-Recall Curve**
+  - **Bar chart** to visualize Class imbalance in the dataset
 - Made visuals accessible even to non-technical viewers.
 
 ### 🔹 5. Streamlit Web App
@@ -52,3 +53,4 @@ This project aims to build a simple, interactive tool to estimate the **risk of 
 - Easy for **non-technical stakeholders** to explore "what-if" scenarios.
 
 ---
+
