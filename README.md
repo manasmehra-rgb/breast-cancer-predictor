@@ -1,6 +1,9 @@
 # 🎗️ Breast Cancer Recurrence Predictor
 An ML app for predicting breast cancer recurrence risk using Streamlit.
 
+🚀 Try out the live app [here](https://mybreastcancerpredictor.streamlit.app/)
+
+----
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/05d4f30d-e8de-4b98-b889-068d99857a74" alt="Breast Cancer Banner" width="80%">
@@ -8,7 +11,7 @@ An ML app for predicting breast cancer recurrence risk using Streamlit.
 
 
 
----
+----
 
 ##  Project Motivation
 
