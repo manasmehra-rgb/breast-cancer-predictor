@@ -33,7 +33,7 @@ This project aims to build a simple, interactive tool to estimate the **risk of 
 - The dataset was **imbalanced**, with far fewer recurrence cases.
 - Applied **Undersampling**(*Random Undersampler*), and **Oversampling**( *SMOTE* & *SMOTE Tomek Links* ) to balance the dataset.
 - Evaluated performance pre- and post-balancing with classification reports.
-- Finally decied to go with *SMOTE Tomek Links* as this had the best model performance
+- Finally decided to go with *SMOTE Tomek Links* as this had the best model performance
 
 ### 🔹 3. Model Building
 - Trained a **Logistic Regression model** on the processed data.
