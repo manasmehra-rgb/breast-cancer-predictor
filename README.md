@@ -10,13 +10,6 @@ An ML app for predicting breast cancer recurrence risk using Streamlit.
 </p>
 
 
-## Dataset
-The project uses a publicly available breast cancer dataset containing clinical and diagnostic features.
-
-The dataset consists of numerical measurements derived from tumor cell nuclei, along with a binary target indicating cancer recurrence status.
-
-Before modeling, features were encoded and standardized, and the dataset was examined for class imbalance.
-
 ----
 
 ##  Project Motivation
